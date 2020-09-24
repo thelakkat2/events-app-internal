@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 const mockEvents = {
     events: [
         { title: 'an event exists and it must', id: 1, description: 'something really cool', location: 'PartyPlace1' },
-        { title: 'another event', id: 2, description: 'something even cooler', location: 'PartyPlace2' }
+        { title: 'another event and it must not', id: 2, description: 'something even cooler', location: 'PartyPlace2' }
     ]
 };
 
